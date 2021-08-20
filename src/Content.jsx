@@ -56,7 +56,7 @@ function Content(){
                     </header>
                 </div>
                 <div class="user-dashboard">
-                    <h1>Hello, JS</h1>
+                    <h1>Dashboard</h1>
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-12 gutter">
 
@@ -97,6 +97,30 @@ function Content(){
                 </div>
             </div>
      
+           
+    <div id="add_project" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            
+            <div class="modal-content">
+                <div class="modal-header login-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Add Project</h4>
+                </div>
+                <div class="modal-body">
+                            <input type="text" placeholder="Project Title" name="name" />
+                            <input type="text" placeholder="Post of Post" name="mail" />
+                            <input type="text" placeholder="Author" name="passsword" />
+                            <textarea placeholder="Desicrption"></textarea>
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="cancel" data-dismiss="modal">Close</button>
+                    <button type="button" class="add-project" data-dismiss="modal">Save</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
     </>
     );
 }

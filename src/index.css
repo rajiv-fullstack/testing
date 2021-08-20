@@ -11,29 +11,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.navi ul li {
-  font-size: 18px;
-  line-height: 3;
-  list-style: none;
-}
-div#navigation {
-  padding: 9px;
-  background: #010121;
-}
-.navi ul li i {
-  margin-right: 14px;
-}
-.navi a {
-  border-bottom: 1px solid #0d172e;
-  border-top: 1px solid #0d172e;
-  color: #ffffff;
-  display: block;
-  font-size: 17px;
-  font-weight: 500;
-  padding: 28px 6px;
-  text-decoration: none;
-}
-.navi ul {
-  position: relative;
-  left: -29px;
-}
+
