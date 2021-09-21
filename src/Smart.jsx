@@ -7,7 +7,7 @@ import ReactDom from "react-dom";
         <>
             <h1>{props.Head}</h1>
             <p>{props.Para}</p>
-            <button className="more-view">{props.Btn}</button>
+            <button className="more-view">{props.Btn}</button>  
         </>
     );
  }

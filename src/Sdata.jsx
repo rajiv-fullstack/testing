@@ -4,7 +4,7 @@ const Sdata = [
         Para: "Smart Data Company Best Now",
         Btn: "View More",
     }
-],
+]
 
 const Smata = [
     {
@@ -14,5 +14,23 @@ const Smata = [
     }
 ]
 
+const field = [
+    {
+        Baby: "https://picsum.photos/seed/picsum/200/300",
+        Title: "Smart Data",
+        Butmore: "View More",
+    }
+]
+
+const chain = [
+    {
+    Master: "Smart Master",
+    Name: "John",
+    Bmaster: "view more",
+    }
+]
+
 export default Sdata;
 export { Smata }
+export { field }
+export { chain }
