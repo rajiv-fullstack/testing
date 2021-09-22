@@ -36,6 +36,13 @@ if(favSeiries == "smartdata") {
 
 const App = () => (
   <>
+  <div class="container-fluid display-table">
+        <div class="row display-table-row">
+        <Sidebar />
+        <Content />
+    </div>
+    </div>
+    <Footer />
   <h1>Serious</h1>
    <Favs />
   </>
