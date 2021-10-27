@@ -29,6 +29,7 @@ if(favSeiries == "smartdata") {
      Para= {Sdata[2].Para}
      Btn= {Sdata[2].Btn}
 
+
   />
   );
 }
@@ -40,8 +41,8 @@ const App = () => (
         <div class="row display-table-row">
         <Sidebar />
         <Content />
-    </div>
-    </div>
+        </div>
+  </div>
     <Footer />
   <h1>Serious</h1>
    <Favs />
@@ -50,5 +51,3 @@ const App = () => (
 export default App;
 export { Smart };
 export { Imgtext };
-
-

@@ -22,9 +22,14 @@ const Sdata = [
         Head: "Smart Master",
         Head: "John",
         Btn: "view more",
-        }
+        },
+        {
+            id: 5,
+            Head: "Leave A Message",
+            Head: "Simple Title",
+            Btn: "Next",
+            }
+        
 ]
-
-
 
 export default Sdata;
